@@ -1,2 +1,2 @@
 # ohw_git_xz
-Oceanhackweek 
+This is a repository for practing git.
