@@ -46,5 +46,9 @@ dependencies:
  * install the new kernal environment: conda activate testenv; ipython kernel install --user --name testenv
  * list all environment: conda env list
  
- 
+## Add Jupyterlab extension
+* conda install -c conda-forge nodejs
+* In Jyputerlab, open "Setting" -> "Advanced Setting Editor" -> "Extension Manager", add `{ "enabled": true}`
+* In Extension Manager, search any extention you need.
+
  
