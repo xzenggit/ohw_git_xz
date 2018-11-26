@@ -46,6 +46,8 @@ dependencies:
  * install the new kernal environment: conda activate testenv; ipython kernel install --user --name testenv
  * list all environment: conda env list
  
+To generate yml file from existing environment, do `conda env export > environment.yaml`
+ 
 ## Add Jupyterlab extension
 * conda install -c conda-forge nodejs
 * In Jyputerlab, open "Setting" -> "Advanced Setting Editor" -> "Extension Manager", add `{ "enabled": true}`
